@@ -1,0 +1,145 @@
+*{
+    font-family: monospace;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Your app container styles */
+.App {
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px;
+    width: 600px;
+    height: 570px;
+    background-color: #faefef;
+    border: 2px solid black;
+}
+
+
+#home-page, #employee-page{
+    width: 300px;
+    background-color: white;
+}
+
+#home-page {
+    border: 2px solid yellow;
+    width: 300px;
+    /* overflow: scroll; */
+    height: 555px;
+}
+
+
+#employee-page {
+    border: 2px solid brown;
+    width: 300px;
+    height: 555px;
+}
+
+#home-page {
+    padding: 3px;
+}
+
+#header {
+    border: 2px solid royalblue;
+    margin: 2px;
+    text-align: center;
+} 
+
+#search-bar{
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    margin: 2px;
+}
+
+input {
+    border-radius: 5px;
+    border: 2px solid #888;
+    width: 250px;
+    height: 20px;
+    margin: 2px;
+}
+#employee-list{
+    padding: 4px;
+    border: 2px solid purple;
+    margin: 2px;
+    height: 450px;
+}
+
+.employee-list-item {
+    border: 2px solid red;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ebd8d8;
+}
+
+#profile-info {
+    padding: 6px;
+}
+
+.profile-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-title {
+    font-size: 16px;
+    color: #888;
+}
+
+#employee-profile{
+    border: 2px solid #ebd8d8;
+    margin: 15px 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2) ;
+    border-radius: 5px;
+}
+
+#contact-info{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ebd8d8;
+    padding: 5px;
+}
+
+#profile-contact{
+    padding: 4px;
+}
+
+#right-arrow{
+    width: 30px;
+    border: 2px solid #ebd8d8;
+    margin-left: auto;
+    padding: 2px;
+}
+
+#profile-contact-info{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border-bottom: 2px solid #ebd8d8;
+}
+
+#profile{
+    padding-left:8px ;
+}
